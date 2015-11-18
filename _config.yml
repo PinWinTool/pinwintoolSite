@@ -1,0 +1,18 @@
+# Site settings
+title: 'Pinwintool'
+url:  'pinwintool.com'
+author: Alberto Barradas
+description: > #
+  Tarjeta de Desarrollo basada en PIC, de facil programación y extracción de datos.
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+sass:
+  sass_dir: css
+  style: expanded
+
+exclude:
+- README.md
+safe: true
+lsi: false

@@ -1,0 +1,43 @@
+<div class="form-group">
+    <form name="sentMessage" id="contactForm">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="input-group input-group-lg">
+                    <label for="name">*Nombre</label>
+                    <input placeholder="Su Nombre" id="name" type="text" class="form-control" data-validation-required-message="Por favor introduzca su nombre.">
+                    <p class="help-block text-danger"></p>
+                </div>
+
+                <div class="input-group input-group-lg">
+                    <label for="email">*Email</label>
+                    <input placeholder="Su correo electrónico" id="email" type="text" class="form-control" data-validation-required-message="Por favor introduzca su correo electrónico.">
+                    <p class="help-block text-danger"></p>
+                </div>
+                <div class="input-group input-group-lg">
+                    <label for="phone">Teléfono</label>
+                    <input placeholder="Su teléfono" id="phone" type="text" class="form-control">
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div><!-- /.col-md-6  -->
+            <div class="col-md-6">
+                <div class="input-group input-group-lg">
+                    <label for="message">*Mensaje</label>
+                    <textarea placeholder="Su mensaje" id="message" class="form-control" data-validation-required-message="Por favor introduzca su mensaje."></textarea>
+                </div>
+            </div><!-- /.col-md-6  -->
+            <div class="col-md-12 text-center">
+                <!-- <p>
+                    <input type="checkbox" id="politica" />
+                    <p class="help-block text-danger"></p>
+                    <label for="politica">Acepto la politica de privacidad</label>
+                </p> -->
+                <div class="input-group input-group-lg">
+                    <div id="success"></div>
+                    <button class="btn btn-large btn-default" type="submit" name="action">
+                        Enviar
+                    </button>
+                </div>
+            </div><!-- /.col-md-12  -->
+        </div>
+    </form>
+</div><!-- /.form-group  -->

@@ -1,0 +1,33 @@
+---
+layout: default
+title:  'Inicio'
+---
+{% assign t = site.data.info %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 center" id="main-video">
+            <div class="embed-responsive embed-responsive-16by9">
+                <video class="responsive-video" autoplay muted loop>
+                    <source type="video/mp4" src="http://{{ site.url }}/movie.mp4" >
+                    Tu buscador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <div class="card medium grey">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img src="http://{{ site.url }}/images/portada.jpg" class="img-responsive">
+                    <span class="card-title">{{ site.title }}</span>
+                </div>
+                <div class="card-content">
+                    <p>{{ site.info.land }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-11 col-md-5 col-md-offset-1">
+            <img id="team" class="z-depth-1 img-responsive" src="http://{{ site.url }}/images/team.png">
+        </div>
+    </div>
+</div>
