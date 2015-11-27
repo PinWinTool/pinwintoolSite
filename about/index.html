@@ -21,14 +21,15 @@ title:  'about'
 				</div>
 			</div>
 		</div>
-
 		<div class="col-sm-12 col-md-6">
+			<div class="jumbotron">
 			{% for element in t.who %}
 				<h3>{{ element.name }}</h3>
-				<div class="card-panel grey">
+				<p class="text-justify">
 						{{ element.descr }}
-				</div>
+				</p>
 			{% endfor %}
+			</div>
 		</div>
 	</div>
 </div>

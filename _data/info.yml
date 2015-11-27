@@ -1,7 +1,9 @@
-land: |
-     Somos una empresa que ofrece plataformas de opensource en hardware y software.
-     Pinwintool. Tarjeta de Desarrollo basada en PIC, de facil programación y extracción de datos.
+land: Somos una empresa que ofrece plataformas de opensource en hardware y software. Pinwintool. Tarjeta de Desarrollo basada en PIC, de facil programación y extracción de datos.
 
+ide:
+    title: Pinwintool IDE
+    descr: Descarga el último IDE de la siguiente página
+    link: https://github.com/PinWinTool/x.4/archive/master.zip
 
 who:
     - name: ¿Quiénes somos?
@@ -13,13 +15,12 @@ who:
     - name: Visión
       descr: Consolidarnos como una de las mejores empresas a nivel nacional en desarrollo de herramientas open source enfocadas a la educación.
 
-contact:
-    - address: |
+address: |
        DGsystem
        Calle Libertad 101, Centro, 36700
        Salamanca, Gto., México
 
-    - phone: "(464) 6483172"
+phone: "(464) 6483172"
 
 copyright: |
     Copyright © Pintintool 2015. Todos los derechos reservados.
