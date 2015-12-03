@@ -1,4 +1,4 @@
-land: Somos una empresa que ofrece plataformas de opensource en hardware y software. Pinwintool. Tarjeta de Desarrollo basada en PIC, de facil programación y extracción de datos.
+land: Somos una empresa que ofrece herramientas de desarrollo OpenSource en Hardware y Software. Con Pinwintool hazlo fácil.
 
 ide:
     title: Pinwintool IDE
@@ -7,21 +7,20 @@ ide:
     gh: https://github.com/PinWinTool
 
 who:
-    - name: ¿Quiénes somos?
-      descr: Somos una empresa que ofrece plataformas de opensource en hardware y software.
-    - name: Pinwintool
-      descr: Tarjeta de Desarrollo basada en PIC, de facil programación y extracción de datos.
-    - name: Misión
-      descr: Brindar a los alumnos de ingenierías herramientas open source que les permitan desarrollar sus proyectos de electrónica o afín de una manera más económica y flexible.
-    - name: Visión
-      descr: Consolidarnos como una de las mejores empresas a nivel nacional en desarrollo de herramientas open source enfocadas a la educación.
+    - name: ¿Que hacemos?
+      descr: Llevamos la electronica de una manera facil a las personas
+    - name: ¿Como lo hacemos?
+      descr: A traves de cursos, platicas y desarrollo de tecnología para facilitar su aprendizaje
+    - name: ¿Porque lo hacemos?
+      descr: Porque todos pueden aprender electrónica, lo hacemos fácil para ti.
 
 address: |
        DGsystem
        Calle Libertad 101, Centro, 36700
        Salamanca, Gto., México
+       contacto@pinwintool.com
 
-phone: "(464) 6483172"
+phone: "(464) 1210766"
 
 copyright: |
     Copyright © Pintintool 2015. Todos los derechos reservados.
@@ -31,3 +30,19 @@ form:
       descr: |
           Si desea hacer cualquier consulta rellene el siguiente formulario:<br>
           Los campos marcados con * son obligatorios.
+
+products:
+  - name: Tarjeta Cabo
+    price: 290
+  - name: Placa tarjeta cabo
+    price: 99
+  - name: Kit de 37 sensores
+    price: 849
+
+ship: Envio por estafeta.
+
+bank:
+  - how: El medio de pago es por tarjeta a la siguiente cuenta banco
+    bank: SANTANDER
+    account: 60-54708715-9
+    CLABE: 014233605470871593
