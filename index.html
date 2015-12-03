@@ -33,7 +33,10 @@ title:  'Inicio'
       <div class="jumbotron">
         <h2>{{ t.ide.title }}</h2>
         <p>{{ t.ide.descr }}:</p>
-        <a href="{{ t.ide.link }}" class="btn btn-lg btn-primary">Descargar</a>
+        <div class="row">
+          <div class="col-md-6"><a href="{{ t.ide.link }}" class="btn btn-lg btn-primary">Descargar</a></div>
+          <div class="col-md-6"><a href="{{ t.ide.gh }}" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Ver en Github</a></div>
+        </div>
       </div>
     </div>
     <!--

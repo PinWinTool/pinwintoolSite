@@ -4,6 +4,7 @@ ide:
     title: Pinwintool IDE
     descr: Descarga el último IDE de la siguiente página
     link: https://github.com/PinWinTool/x.4/archive/master.zip
+    gh: https://github.com/PinWinTool
 
 who:
     - name: ¿Quiénes somos?
