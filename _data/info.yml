@@ -15,15 +15,14 @@ who:
       descr: Porque todos pueden aprender electrónica, lo hacemos fácil para ti.
 
 address: |
-       DGsystem
-       Calle Libertad 101, Centro, 36700
-       Salamanca, Gto., México
+       Paseo rio lerma 208, Centro, 36700 <br>
+       Salamanca, Gto., México <br>
        contacto@pinwintool.com
 
 phone: "(464) 1210766"
 
 copyright: |
-    Copyright © Pintintool 2015. Todos los derechos reservados.
+    Copyright © Pinwintool 2015. Todos los derechos reservados.
 
 form:
     - name: Formulario de Contacto
@@ -42,7 +41,7 @@ products:
 ship: Envio por estafeta.
 
 bank:
-  - how: El medio de pago es por tarjeta a la siguiente cuenta banco
+    how: El medio de pago es por tarjeta a la siguiente cuenta banco
     bank: SANTANDER
     account: 60-54708715-9
     CLABE: 014233605470871593

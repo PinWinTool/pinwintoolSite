@@ -31,11 +31,26 @@ title:  'Inicio'
     </div>
     <div class="col-md-6 col-sm-12">
       <div class="jumbotron">
-        <h2>{{ t.ide.title }}</h2>
-        <p>{{ t.ide.descr }}:</p>
         <div class="row">
-          <div class="col-md-6"><a href="{{ t.ide.link }}" class="btn btn-lg btn-primary">Descargar</a></div>
-          <div class="col-md-6"><a href="{{ t.ide.gh }}" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Ver en Github</a></div>
+          <div class="col-md-12">
+            <h3>¿Cómo comprar?</h3>
+            <p>{{t.bank.how}}</p>
+            <p>
+              {{t.bank.bank}} <br>
+              Cuenta: {{t.bank.account}} <br>
+              CLABE: {{t.bank.CLABE}} <br>
+            </p>
+          </div>
+          <div class="col-md-12">
+            <h3>{{ t.ide.title }}</h3>
+            <p>{{ t.ide.descr }}:</p>
+          </div>
+          <div class="col-md-6">
+            <a href="{{ t.ide.link }}" class="btn btn-lg btn-primary">Descargar</a>
+          </div>
+          <div class="col-md-6">
+            <a href="{{ t.ide.gh }}" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Ver en Github</a>
+          </div>
         </div>
       </div>
     </div>

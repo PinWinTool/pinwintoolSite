@@ -12,14 +12,13 @@ title:  'contact'
 	</div>
 	<div class="row">
 		<div class="col-sm-10 col-md-4 col-sm-offset-2 col-md-offset-2">
-			<div class="valign-wrapper" style="height: 400px">
-				<div class="valing">
-					<p class="interlineado">
-					{{ t.address }}
-					</p>
-					<hr>
-					{{ t.phone }}
-				</div>
+			<div class="jumbotron">
+				<p class="interlineado">
+				{{ t.address }}
+				</p>
+				<a href="mailto:{{t.email}}">{{t.email}}</a>
+				<hr>
+				<p>{{ t.phone }}</p>
 			</div>
 		</div> <!-- /.col-sm-10 .col-md-4 .col-sm-offset-2 .col-md-offset-2 -->
 		<div class="col-sm-12 col-md-6">
